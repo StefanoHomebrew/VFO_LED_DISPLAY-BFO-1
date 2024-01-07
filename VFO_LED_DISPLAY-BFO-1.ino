@@ -47,7 +47,7 @@ unsigned long freq3 = (freq);
 unsigned long freqSi = 455000;
 unsigned long freqPLL = 0;
 
-long bfoPLL = 455000;//il valore del BFO, va spostato di + o - 2.5 khz rispetto ai 455 centrali del filtro(Grazie a U3EVR).
+long bfoPLL = 455000;//il valore del BFO, va spostato di + o - 2.5 khz rispetto ai 455 centrali del filtro(Grazie a IU3EVR).
 byte bfo= 0;
 byte varBfo= 0;
 int passo = 10000;
